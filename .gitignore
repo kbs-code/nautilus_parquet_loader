@@ -1,5 +1,4 @@
 .env
 data/
-mt5_terminal/
 nautilus_trader-1.180.0-cp311-cp311-win_amd64.whl
-multi_instrument_catalog_test.py
+catalog/
