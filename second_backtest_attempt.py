@@ -10,9 +10,7 @@ from nautilus_trader.backtest.node import BacktestNode, BacktestVenueConfig, Bac
 from nautilus_trader.config.common import ImportableStrategyConfig
 from decimal import Decimal
 
-data_path = "./data"
-tickers = ['AUD/CAD','AUD/JPY','AUD/NZD','CHF/JPY','EUR/GBP','EUR/USD','GBP/NZD','USD/JPY']
-
+# catalog contains several tickers with bar data
 CATALOG_PATH = os.getcwd() + "/catalog"
 catalog = ParquetDataCatalog(CATALOG_PATH)
 
