@@ -2,3 +2,4 @@
 data/
 nautilus_trader-1.180.0-cp311-cp311-win_amd64.whl
 catalog/
+mt5_prop_firm_nautilus_backtests.code-workspace

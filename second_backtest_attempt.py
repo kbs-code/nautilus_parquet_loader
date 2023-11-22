@@ -3,7 +3,7 @@ import os
 from nautilus_trader.persistence.wranglers import BarDataWrangler
 from nautilus_trader.persistence.loaders import CSVBarDataLoader
 from nautilus_trader.test_kit.providers import TestInstrumentProvider
-from nautilus_trader.persistence.catalog import ParquetDataCatalog
+from nautilus_trader.persistence.catalog import ParquetDataCatalog 
 from nautilus_trader.model.data import BarType
 from nautilus_trader.model.data import Bar
 from nautilus_trader.backtest.node import BacktestNode, BacktestVenueConfig, BacktestDataConfig, BacktestRunConfig, BacktestEngineConfig
@@ -42,7 +42,7 @@ strategies = [
         config_path="nautilus_trader.examples.strategies.ema_cross:EMACrossConfig",
         config=dict(
             instrument_id=instrument.id.value,
-            #bar_type=BarType.from_catalog(instrument.id.value, catalog).value,
+            bar_type=f"{instrument.id.value}-1-DAY-LAST-EXTERNAL",
             fast_ema_period=10,
             slow_ema_period=20,
             trade_size=Decimal(1_000_000),
