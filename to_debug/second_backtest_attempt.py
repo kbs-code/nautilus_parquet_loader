@@ -1,3 +1,8 @@
+# This is not production grade code.  
+# I published it so that I could share the code, ask for help, 
+# and get feedback from the community.
+
+
 import pandas as pd
 import os
 from nautilus_trader.persistence.wranglers import BarDataWrangler
