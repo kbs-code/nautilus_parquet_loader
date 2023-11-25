@@ -3,16 +3,12 @@
 # and get feedback from the community.
 
 import time
-from decimal import Decimal
 
 import pandas as pd
 
 from nautilus_trader.backtest.engine import BacktestEngine
 from nautilus_trader.backtest.engine import BacktestEngineConfig
 from nautilus_trader.config.common import LoggingConfig
-from nautilus_trader.config.common import RiskEngineConfig
-from nautilus_trader.examples.strategies.ema_cross_bracket import EMACrossBracket
-from nautilus_trader.examples.strategies.ema_cross_bracket import EMACrossBracketConfig
 from nautilus_trader.model.currencies import USD
 from nautilus_trader.model.data import BarType
 from nautilus_trader.model.enums import AccountType
@@ -22,6 +18,9 @@ from nautilus_trader.model.objects import Money
 from nautilus_trader.persistence.wranglers import BarDataWrangler
 from nautilus_trader.test_kit.providers import TestInstrumentProvider
 from nautilus_trader.persistence.loaders import CSVBarDataLoader
+from nautilus_trader.trading.strategy import Strategy
+from nautilus_trader.model.enums import OrderSide
+
 import os
 
 
@@ -29,12 +28,12 @@ if __name__ == "__main__":
 
     config = BacktestEngineConfig(
         trader_id="BACKTESTER-001",
-        logging=LoggingConfig(log_level="WARNING"),
-        risk_engine=RiskEngineConfig(
-            bypass=True,  # Example of bypassing pre-trade risk checks for backtests
-        ),
+        logging=LoggingConfig(
+          log_level="ERROR",
+          log_level_file="DEBUG",
+          ),
     )
-
+  
     # Build backtest engine
     engine = BacktestEngine(config=config)
 
@@ -42,7 +41,7 @@ if __name__ == "__main__":
     SIM = Venue("SIM")
     engine.add_venue(
         venue=SIM,
-        oms_type=OmsType.HEDGING,  # Venue will generate position IDs
+        oms_type=OmsType.NETTING,  # Venue will generate position IDs
         account_type=AccountType.MARGIN,
         base_currency=USD,  # Standard single-currency account
         starting_balances=[Money(100_000, USD)],  # Single-currency or multi-currency accounts
@@ -64,19 +63,38 @@ if __name__ == "__main__":
       engine.add_instrument(instrument)
       engine.add_data(bars)
 
-    # Configure your strategy
-    config = EMACrossBracketConfig(
-        instrument_id=instrument.id.value,
-        bar_type=f"{instrument.id.value}-1-DAY-LAST-EXTERNAL",
-        fast_ema_period=10,
-        slow_ema_period=20,
-        bracket_distance_atr=3.0,
-        trade_size=Decimal(1_000),
-    )
-    # Instantiate and add your strategy
-    strategy = EMACrossBracket(config=config)
-    engine.add_strategy(strategy=strategy)
+    # strategy
 
+    class BuyAndHold(Strategy):
+      def __init__(self) -> None:
+        super().__init__() 
+
+      def on_start(self) -> None:
+        self.instrument = self.cache.instrument(self.instrument_id)
+        if self.instrument is None:
+          self.log.error(f"Could not find instrument for {self.instrument_id}")
+          self.stop()
+          return
+     
+        self.bar_type = f"{instrument.id.value}-1-DAY-LAST-EXTERNAL"
+            
+        self.request_instrument(self.instrument)
+        self.request_bars(self.bar_type)
+        self.subscribe_bars(self.bar_type)
+
+      def on_stop(self) -> None:
+        self.close_all_positions(self.instrument_id)
+
+      def on_bar(self) -> None:
+        try:
+          self.order_factory.market(
+            instrument_id=instrument.id.value,
+            order_side=OrderSide.BUY,
+            quantity=1,
+          )
+        except:
+          self.log.warning("Did not place an order.")
+      
     time.sleep(0.1)
     input("Press Enter to continue...")
 
