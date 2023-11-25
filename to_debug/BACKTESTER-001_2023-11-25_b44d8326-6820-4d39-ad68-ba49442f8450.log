@@ -1,155 +1,155 @@
-2023-11-25T01:28:45.903180800Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.903203300Z [INF] BACKTESTER-001.BacktestEngine: [36m NAUTILUS TRADER - Automated Algorithmic Trading Platform
-2023-11-25T01:28:45.903204500Z [INF] BACKTESTER-001.BacktestEngine: [36m by Nautech Systems Pty Ltd.
-2023-11-25T01:28:45.903205200Z [INF] BACKTESTER-001.BacktestEngine: [36m Copyright (C) 2015-2023. All rights reserved.
-2023-11-25T01:28:45.903206200Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.903207000Z [INF] BACKTESTER-001.BacktestEngine: 
-2023-11-25T01:28:45.903207400Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-2023-11-25T01:28:45.903211100Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣾⣿⣿⣿⠀⢸⣿⣿⣿⣿⣶⣶⣤⣀⠀⠀⠀⠀⠀
-2023-11-25T01:28:45.903212100Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⢀⣴⡇⢀⣾⣿⣿⣿⣿⣿⠀⣾⣿⣿⣿⣿⣿⣿⣿⠿⠓⠀⠀⠀⠀
-2023-11-25T01:28:45.903213100Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⣰⣿⣿⡀⢸⣿⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⣿⠟⠁⣠⣄⠀⠀⠀⠀
-2023-11-25T01:28:45.903213900Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⢠⣿⣿⣿⣇⠀⢿⣿⣿⣿⣿⣿⠀⢻⣿⣿⣿⡿⢃⣠⣾⣿⣿⣧⡀⠀⠀
-2023-11-25T01:28:45.903214600Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⢸⣿⣿⣿⣿⣆⠘⢿⣿⡿⠛⢉⠀⠀⠉⠙⠛⣠⣿⣿⣿⣿⣿⣿⣷⠀⠀
-2023-11-25T01:28:45.903215200Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠠⣾⣿⣿⣿⣿⣿⣧⠈⠋⢀⣴⣧⠀⣿⡏⢠⡀⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀
-2023-11-25T01:28:45.903215800Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⣀⠙⢿⣿⣿⣿⣿⣿⠇⢠⣿⣿⣿⡄⠹⠃⠼⠃⠈⠉⠛⠛⠛⠛⠛⠻⠇⠀
-2023-11-25T01:28:45.903216600Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⢸⡟⢠⣤⠉⠛⠿⢿⣿⠀⢸⣿⡿⠋⣠⣤⣄⠀⣾⣿⣿⣶⣶⣶⣦⡄⠀⠀⠀
-2023-11-25T01:28:45.903217300Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠸⠀⣾⠏⣸⣷⠂⣠⣤⠀⠘⢁⣴⣾⣿⣿⣿⡆⠘⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀
-2023-11-25T01:28:45.903218000Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠛⠀⣿⡟⠀⢻⣿⡄⠸⣿⣿⣿⣿⣿⣿⣿⡀⠘⣿⣿⣿⣿⠟⠀⠀⠀⠀
-2023-11-25T01:28:45.903218800Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⣿⠇⠀⠀⢻⡿⠀⠈⠻⣿⣿⣿⣿⣿⡇⠀⢹⣿⠿⠋⠀⠀⠀⠀⠀
-2023-11-25T01:28:45.903222200Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⠋⠀⠀⠀⡘⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀
-2023-11-25T01:28:45.903223000Z [INF] BACKTESTER-001.BacktestEngine: 
-2023-11-25T01:28:45.903223400Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.903224000Z [INF] BACKTESTER-001.BacktestEngine: [36m SYSTEM SPECIFICATION
-2023-11-25T01:28:45.903224700Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.919728600Z [INF] BACKTESTER-001.BacktestEngine: CPU architecture: Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
-2023-11-25T01:28:45.919796400Z [INF] BACKTESTER-001.BacktestEngine: CPU(s): 8 @ 1896 MHz
-2023-11-25T01:28:45.929089900Z [INF] BACKTESTER-001.BacktestEngine: OS: Windows-10-10.0.22631-SP0
-2023-11-25T01:28:45.929119100Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.929120400Z [INF] BACKTESTER-001.BacktestEngine: [36m MEMORY USAGE
-2023-11-25T01:28:45.929121100Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.936985400Z [INF] BACKTESTER-001.BacktestEngine: RAM-Total: 17,006 MB
-2023-11-25T01:28:45.937005900Z [INF] BACKTESTER-001.BacktestEngine: RAM-Used:  7,509 MB (44.20%)
-2023-11-25T01:28:45.937010900Z [INF] BACKTESTER-001.BacktestEngine: RAM-Avail: 9,497 MB (55.80%)
-2023-11-25T01:28:45.937012000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.937013000Z [INF] BACKTESTER-001.BacktestEngine: [36m IDENTIFIERS
-2023-11-25T01:28:45.937013700Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.937045200Z [INF] BACKTESTER-001.BacktestEngine: trader_id: BACKTESTER-001
-2023-11-25T01:28:45.937048000Z [INF] BACKTESTER-001.BacktestEngine: machine_id: laptop
-2023-11-25T01:28:45.937052300Z [INF] BACKTESTER-001.BacktestEngine: instance_id: de82616e-5518-42b1-bf37-9a51c60fccf6
-2023-11-25T01:28:45.937053400Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.937054000Z [INF] BACKTESTER-001.BacktestEngine: [36m VERSIONING
-2023-11-25T01:28:45.937054600Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.937055900Z [INF] BACKTESTER-001.BacktestEngine: nautilus-trader latest
-2023-11-25T01:28:45.937061500Z [INF] BACKTESTER-001.BacktestEngine: python 3.11.5
-2023-11-25T01:28:45.937063800Z [INF] BACKTESTER-001.BacktestEngine: numpy 1.26.2
-2023-11-25T01:28:45.937065500Z [INF] BACKTESTER-001.BacktestEngine: pandas 2.1.3
-2023-11-25T01:28:45.937069100Z [INF] BACKTESTER-001.BacktestEngine: msgspec 0.18.4
-2023-11-25T01:28:45.937070200Z [INF] BACKTESTER-001.BacktestEngine: psutil 5.9.6
-2023-11-25T01:28:45.937071500Z [INF] BACKTESTER-001.BacktestEngine: pyarrow 14.0.1
-2023-11-25T01:28:45.937073000Z [INF] BACKTESTER-001.BacktestEngine: pytz 2023.3.post1
-2023-11-25T01:28:45.938738700Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:45.938754000Z [INF] BACKTESTER-001.BacktestEngine: Building system kernel...
-2023-11-25T01:28:45.938792800Z [INF] BACKTESTER-001.Cache: READY.
-2023-11-25T01:28:45.939407900Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'Portfolio.update_account' <bound method Portfolio.update_account of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000002B497D3CBC0>>.
-2023-11-25T01:28:45.939442500Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=data.quotes.*, handler=<bound method Portfolio.update_quote_tick of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000002B497D3CBC0>>, priority=10).
-2023-11-25T01:28:45.939450400Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.order.*, handler=<bound method Portfolio.update_order of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000002B497D3CBC0>>, priority=10).
-2023-11-25T01:28:45.939456200Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.position.*, handler=<bound method Portfolio.update_position of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000002B497D3CBC0>>, priority=10).
-2023-11-25T01:28:45.939461600Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.account.*, handler=<bound method Portfolio.update_account of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000002B497D3CBC0>>, priority=10).
-2023-11-25T01:28:45.939541400Z [INF] BACKTESTER-001.DataEngine: READY.
-2023-11-25T01:28:45.939680200Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'DataEngine.execute' <bound method DataEngine.execute of DataEngine(DataEngine)>.
-2023-11-25T01:28:45.939689100Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'DataEngine.process' <bound method DataEngine.process of DataEngine(DataEngine)>.
-2023-11-25T01:28:45.939691600Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'DataEngine.request' <bound method DataEngine.request of DataEngine(DataEngine)>.
-2023-11-25T01:28:45.939693400Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'DataEngine.response' <bound method DataEngine.response of DataEngine(DataEngine)>.
-2023-11-25T01:28:45.939730600Z [INF] BACKTESTER-001.RiskEngine: READY.
-2023-11-25T01:28:45.939812200Z [INF] BACKTESTER-001.RiskEngine: TradingState is ACTIVE.
-2023-11-25T01:28:45.939921400Z [INF] BACKTESTER-001.Throttler-ORDER_SUBMIT_THROTTLER: READY.
-2023-11-25T01:28:45.939948900Z [INF] BACKTESTER-001.RiskEngine: Set MAX_ORDER_SUBMIT_RATE: 100/00:00:01.
-2023-11-25T01:28:45.939978700Z [INF] BACKTESTER-001.Throttler-ORDER_MODIFY_THROTTLER: READY.
-2023-11-25T01:28:45.939989200Z [INF] BACKTESTER-001.RiskEngine: Set MAX_ORDER_MODIFY_RATE: 100/00:00:01.
-2023-11-25T01:28:45.939997500Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'RiskEngine.execute' <bound method RiskEngine.execute of RiskEngine(RiskEngine)>.
-2023-11-25T01:28:45.939999800Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'RiskEngine.process' <bound method RiskEngine.process of RiskEngine(RiskEngine)>.
-2023-11-25T01:28:45.940027800Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.order.*, handler=<bound method RiskEngine._handle_event of RiskEngine(RiskEngine)>, priority=10).
-2023-11-25T01:28:45.940053700Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.position.*, handler=<bound method RiskEngine._handle_event of RiskEngine(RiskEngine)>, priority=10).
-2023-11-25T01:28:45.940090200Z [INF] BACKTESTER-001.ExecEngine: READY.
-2023-11-25T01:28:45.940862400Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'ExecEngine.execute' <bound method ExecutionEngine.execute of ExecutionEngine(ExecEngine)>.
-2023-11-25T01:28:45.940874200Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'ExecEngine.process' <bound method ExecutionEngine.process of ExecutionEngine(ExecEngine)>.
-2023-11-25T01:28:45.940900800Z [DBG] BACKTESTER-001.Cache: Loading general cache from database...
-2023-11-25T01:28:45.940903700Z [INF] BACKTESTER-001.Cache: Cached 0 general objects from database.
-2023-11-25T01:28:45.940906900Z [DBG] BACKTESTER-001.Cache: Loading currencies from database...
-2023-11-25T01:28:45.940908200Z [INF] BACKTESTER-001.Cache: Cached 0 currencies from database.
-2023-11-25T01:28:45.940908800Z [DBG] BACKTESTER-001.Cache: Loading instruments from database...
-2023-11-25T01:28:45.940911700Z [INF] BACKTESTER-001.Cache: Cached 0 instruments from database.
-2023-11-25T01:28:45.940914300Z [DBG] BACKTESTER-001.Cache: Loading accounts from database...
-2023-11-25T01:28:45.940917200Z [INF] BACKTESTER-001.Cache: Cached 0 accounts from database.
-2023-11-25T01:28:45.940918000Z [DBG] BACKTESTER-001.Cache: Loading orders from database...
-2023-11-25T01:28:45.940919100Z [INF] BACKTESTER-001.Cache: Cached 0 orders from database.
-2023-11-25T01:28:45.940921500Z [DBG] BACKTESTER-001.Cache: Loading order lists...
-2023-11-25T01:28:45.940922800Z [INF] BACKTESTER-001.Cache: Cached 0 order lists from database.
-2023-11-25T01:28:45.940925400Z [DBG] BACKTESTER-001.Cache: Loading positions from database...
-2023-11-25T01:28:45.940926500Z [INF] BACKTESTER-001.Cache: Cached 0 positions from database.
-2023-11-25T01:28:45.940929200Z [DBG] BACKTESTER-001.Cache: Clearing index...
-2023-11-25T01:28:45.940932500Z [DBG] BACKTESTER-001.Cache: Cleared index.
-2023-11-25T01:28:45.940933200Z [DBG] BACKTESTER-001.Cache: Building index...
-2023-11-25T01:28:45.940960300Z [DBG] BACKTESTER-001.Cache: Index built in 0.000s.
-2023-11-25T01:28:45.940965500Z [INF] BACKTESTER-001.Cache: Checking data integrity...
-2023-11-25T01:28:45.940989100Z [INF] BACKTESTER-001.Cache: Integrity check passed in 19μs.
-2023-11-25T01:28:45.941008800Z [INF] BACKTESTER-001.ExecEngine: Loaded cache in 1ms.
-2023-11-25T01:28:45.941170900Z [INF] BACKTESTER-001.OrderEmulator: READY.
-2023-11-25T01:28:45.941288800Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'OrderEmulator.execute' <bound method OrderEmulator.execute of OrderEmulator(OrderEmulator)>.
-2023-11-25T01:28:45.941319600Z [INF] BACKTESTER-001.BACKTESTER-001: READY.
-2023-11-25T01:28:45.941439000Z [INF] BACKTESTER-001.BacktestEngine: Initialized in 41ms.
-2023-11-25T01:28:45.941543700Z [INF] BACKTESTER-001.SimulatedExchange(SIM): OmsType=NETTING
-2023-11-25T01:28:45.941603500Z [INF] BACKTESTER-001.ExecClient-SIM: READY.
-2023-11-25T01:28:45.941685300Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Registered ExecutionClient-SIM.
-2023-11-25T01:28:45.941699600Z [INF] BACKTESTER-001.ExecEngine: Registered ExecutionClient-SIM.
-2023-11-25T01:28:45.941706200Z [INF] BACKTESTER-001.BacktestEngine: Added SimulatedExchange(id=SIM, oms_type=NETTING, account_type=MARGIN).
-2023-11-25T01:28:45.957674600Z [INF] BACKTESTER-001.DataClient-SIM: READY.
-2023-11-25T01:28:45.957731700Z [INF] BACKTESTER-001.DataEngine: Registered SIM.
-2023-11-25T01:28:45.957766900Z [DBG] BACKTESTER-001.Cache: Added instrument AUD/CAD.SIM.
-2023-11-25T01:28:45.957956100Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Added instrument AUD/CAD.SIM and created matching engine.
-2023-11-25T01:28:45.957965100Z [INF] BACKTESTER-001.BacktestEngine: Added AUD/CAD.SIM Instrument.
-2023-11-25T01:28:45.958062700Z [INF] BACKTESTER-001.BacktestEngine: Added 545 AUD/CAD.SIM-1-DAY-LAST-EXTERNAL Bar elements.
-2023-11-25T01:28:45.964974700Z [DBG] BACKTESTER-001.Cache: Added instrument AUD/JPY.SIM.
-2023-11-25T01:28:45.965120200Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Added instrument AUD/JPY.SIM and created matching engine.
-2023-11-25T01:28:45.965129100Z [INF] BACKTESTER-001.BacktestEngine: Added AUD/JPY.SIM Instrument.
-2023-11-25T01:28:45.965264700Z [INF] BACKTESTER-001.BacktestEngine: Added 545 AUD/JPY.SIM-1-DAY-LAST-EXTERNAL Bar elements.
-2023-11-25T01:28:45.971932500Z [DBG] BACKTESTER-001.Cache: Added instrument AUD/NZD.SIM.
-2023-11-25T01:28:45.972087700Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Added instrument AUD/NZD.SIM and created matching engine.
-2023-11-25T01:28:45.972096900Z [INF] BACKTESTER-001.BacktestEngine: Added AUD/NZD.SIM Instrument.
-2023-11-25T01:28:45.972299100Z [INF] BACKTESTER-001.BacktestEngine: Added 545 AUD/NZD.SIM-1-DAY-LAST-EXTERNAL Bar elements.
-2023-11-25T01:28:47.293403800Z [DBG] BACKTESTER-001.Cache: Added Account(id=SIM-001).
-2023-11-25T01:28:47.293423400Z [DBG] BACKTESTER-001.Cache: Indexed AccountId('SIM-001').
-2023-11-25T01:28:47.293452900Z [INF] BACKTESTER-001.Portfolio: Updated AccountState(account_id=SIM-001, account_type=MARGIN, base_currency=USD, is_reported=True, balances=[AccountBalance(total=100_000.00 USD, locked=0.00 USD, free=100_000.00 USD)], margins=[], event_id=7fbbcf31-d81b-47cb-8409-0c54379e63f3).
-2023-11-25T01:28:47.293486100Z [INF] BACKTESTER-001.BacktestEngine: STARTING...
-2023-11-25T01:28:47.293503600Z [INF] BACKTESTER-001.DataEngine: STARTING...
-2023-11-25T01:28:47.293516000Z [INF] BACKTESTER-001.DataClient-SIM: STARTING...
-2023-11-25T01:28:47.293520100Z [INF] BACKTESTER-001.DataClient-SIM: Connecting...
-2023-11-25T01:28:47.293520900Z [INF] BACKTESTER-001.DataClient-SIM: Connected.
-2023-11-25T01:28:47.293542800Z [INF] BACKTESTER-001.DataClient-SIM: RUNNING.
-2023-11-25T01:28:47.293558100Z [INF] BACKTESTER-001.DataEngine: RUNNING.
-2023-11-25T01:28:47.293567400Z [INF] BACKTESTER-001.RiskEngine: STARTING...
-2023-11-25T01:28:47.293583000Z [INF] BACKTESTER-001.RiskEngine: RUNNING.
-2023-11-25T01:28:47.293591900Z [INF] BACKTESTER-001.ExecEngine: STARTING...
-2023-11-25T01:28:47.293619700Z [INF] BACKTESTER-001.ExecClient-SIM: STARTING...
-2023-11-25T01:28:47.293624000Z [INF] BACKTESTER-001.ExecClient-SIM: Connecting...
-2023-11-25T01:28:47.293624700Z [INF] BACKTESTER-001.ExecClient-SIM: Connected.
-2023-11-25T01:28:47.293634900Z [INF] BACKTESTER-001.ExecClient-SIM: RUNNING.
-2023-11-25T01:28:47.293647700Z [INF] BACKTESTER-001.ExecEngine: RUNNING.
-2023-11-25T01:28:47.293655400Z [INF] BACKTESTER-001.DataEngine: Connecting all clients...
-2023-11-25T01:28:47.293657000Z [INF] BACKTESTER-001.ExecEngine: Connecting all clients...
-2023-11-25T01:28:47.293660900Z [INF] BACKTESTER-001.OrderEmulator: STARTING...
-2023-11-25T01:28:47.293675900Z [INF] BACKTESTER-001.OrderEmulator: No emulated orders to reactivate.
-2023-11-25T01:28:47.293685000Z [INF] BACKTESTER-001.OrderEmulator: RUNNING.
-2023-11-25T01:28:47.293698400Z [INF] BACKTESTER-001.Portfolio: Initialized 0 open orders.
-2023-11-25T01:28:47.293708300Z [INF] BACKTESTER-001.Portfolio: Initialized 0 open positions.
-2023-11-25T01:28:47.293712200Z [INF] BACKTESTER-001.BACKTESTER-001: STARTING...
-2023-11-25T01:28:47.293724500Z [INF] BACKTESTER-001.BACKTESTER-001: RUNNING.
+2023-11-25T23:02:11.142934700Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.142978300Z [INF] BACKTESTER-001.BacktestEngine: [36m NAUTILUS TRADER - Automated Algorithmic Trading Platform
+2023-11-25T23:02:11.142980300Z [INF] BACKTESTER-001.BacktestEngine: [36m by Nautech Systems Pty Ltd.
+2023-11-25T23:02:11.142981900Z [INF] BACKTESTER-001.BacktestEngine: [36m Copyright (C) 2015-2023. All rights reserved.
+2023-11-25T23:02:11.142984000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.142985100Z [INF] BACKTESTER-001.BacktestEngine: 
+2023-11-25T23:02:11.142986100Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+2023-11-25T23:02:11.142993100Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣾⣿⣿⣿⠀⢸⣿⣿⣿⣿⣶⣶⣤⣀⠀⠀⠀⠀⠀
+2023-11-25T23:02:11.143008800Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⢀⣴⡇⢀⣾⣿⣿⣿⣿⣿⠀⣾⣿⣿⣿⣿⣿⣿⣿⠿⠓⠀⠀⠀⠀
+2023-11-25T23:02:11.143010500Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⣰⣿⣿⡀⢸⣿⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⣿⠟⠁⣠⣄⠀⠀⠀⠀
+2023-11-25T23:02:11.143012100Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⢠⣿⣿⣿⣇⠀⢿⣿⣿⣿⣿⣿⠀⢻⣿⣿⣿⡿⢃⣠⣾⣿⣿⣧⡀⠀⠀
+2023-11-25T23:02:11.143013500Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⢸⣿⣿⣿⣿⣆⠘⢿⣿⡿⠛⢉⠀⠀⠉⠙⠛⣠⣿⣿⣿⣿⣿⣿⣷⠀⠀
+2023-11-25T23:02:11.143014900Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠠⣾⣿⣿⣿⣿⣿⣧⠈⠋⢀⣴⣧⠀⣿⡏⢠⡀⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀
+2023-11-25T23:02:11.143016500Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⣀⠙⢿⣿⣿⣿⣿⣿⠇⢠⣿⣿⣿⡄⠹⠃⠼⠃⠈⠉⠛⠛⠛⠛⠛⠻⠇⠀
+2023-11-25T23:02:11.143017900Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⢸⡟⢠⣤⠉⠛⠿⢿⣿⠀⢸⣿⡿⠋⣠⣤⣄⠀⣾⣿⣿⣶⣶⣶⣦⡄⠀⠀⠀
+2023-11-25T23:02:11.143019400Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠸⠀⣾⠏⣸⣷⠂⣠⣤⠀⠘⢁⣴⣾⣿⣿⣿⡆⠘⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀
+2023-11-25T23:02:11.143026000Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠛⠀⣿⡟⠀⢻⣿⡄⠸⣿⣿⣿⣿⣿⣿⣿⡀⠘⣿⣿⣿⣿⠟⠀⠀⠀⠀
+2023-11-25T23:02:11.143027400Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⣿⠇⠀⠀⢻⡿⠀⠈⠻⣿⣿⣿⣿⣿⡇⠀⢹⣿⠿⠋⠀⠀⠀⠀⠀
+2023-11-25T23:02:11.143028700Z [INF] BACKTESTER-001.BacktestEngine: ⠀⠀⠀⠀⠀⠀⠋⠀⠀⠀⡘⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀
+2023-11-25T23:02:11.143030100Z [INF] BACKTESTER-001.BacktestEngine: 
+2023-11-25T23:02:11.143031300Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.143032600Z [INF] BACKTESTER-001.BacktestEngine: [36m SYSTEM SPECIFICATION
+2023-11-25T23:02:11.143034000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.171321500Z [INF] BACKTESTER-001.BacktestEngine: CPU architecture: Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+2023-11-25T23:02:11.171421200Z [INF] BACKTESTER-001.BacktestEngine: CPU(s): 8 @ 1896 MHz
+2023-11-25T23:02:11.192461100Z [INF] BACKTESTER-001.BacktestEngine: OS: Windows-10-10.0.22631-SP0
+2023-11-25T23:02:11.192490100Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.192492600Z [INF] BACKTESTER-001.BacktestEngine: [36m MEMORY USAGE
+2023-11-25T23:02:11.192494000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.207869300Z [INF] BACKTESTER-001.BacktestEngine: RAM-Total: 17,006 MB
+2023-11-25T23:02:11.207906000Z [INF] BACKTESTER-001.BacktestEngine: RAM-Used:  8,047 MB (47.30%)
+2023-11-25T23:02:11.207916500Z [INF] BACKTESTER-001.BacktestEngine: RAM-Avail: 8,959 MB (52.70%)
+2023-11-25T23:02:11.207918900Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.207921300Z [INF] BACKTESTER-001.BacktestEngine: [36m IDENTIFIERS
+2023-11-25T23:02:11.207922800Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.208005800Z [INF] BACKTESTER-001.BacktestEngine: trader_id: BACKTESTER-001
+2023-11-25T23:02:11.208011700Z [INF] BACKTESTER-001.BacktestEngine: machine_id: laptop
+2023-11-25T23:02:11.208020000Z [INF] BACKTESTER-001.BacktestEngine: instance_id: b44d8326-6820-4d39-ad68-ba49442f8450
+2023-11-25T23:02:11.208022100Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.208023500Z [INF] BACKTESTER-001.BacktestEngine: [36m VERSIONING
+2023-11-25T23:02:11.208024600Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.208026700Z [INF] BACKTESTER-001.BacktestEngine: nautilus-trader latest
+2023-11-25T23:02:11.208047100Z [INF] BACKTESTER-001.BacktestEngine: python 3.11.5
+2023-11-25T23:02:11.208052200Z [INF] BACKTESTER-001.BacktestEngine: numpy 1.26.2
+2023-11-25T23:02:11.208069900Z [INF] BACKTESTER-001.BacktestEngine: pandas 2.1.3
+2023-11-25T23:02:11.208077400Z [INF] BACKTESTER-001.BacktestEngine: msgspec 0.18.4
+2023-11-25T23:02:11.208079900Z [INF] BACKTESTER-001.BacktestEngine: psutil 5.9.6
+2023-11-25T23:02:11.208082600Z [INF] BACKTESTER-001.BacktestEngine: pyarrow 14.0.1
+2023-11-25T23:02:11.208085200Z [INF] BACKTESTER-001.BacktestEngine: pytz 2023.3.post1
+2023-11-25T23:02:11.212107000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:11.212141600Z [INF] BACKTESTER-001.BacktestEngine: Building system kernel...
+2023-11-25T23:02:11.212224200Z [INF] BACKTESTER-001.Cache: READY.
+2023-11-25T23:02:11.213582600Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'Portfolio.update_account' <bound method Portfolio.update_account of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000001CD5CF8CCC0>>.
+2023-11-25T23:02:11.213660300Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=data.quotes.*, handler=<bound method Portfolio.update_quote_tick of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000001CD5CF8CCC0>>, priority=10).
+2023-11-25T23:02:11.213678300Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.order.*, handler=<bound method Portfolio.update_order of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000001CD5CF8CCC0>>, priority=10).
+2023-11-25T23:02:11.213691900Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.position.*, handler=<bound method Portfolio.update_position of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000001CD5CF8CCC0>>, priority=10).
+2023-11-25T23:02:11.213704000Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.account.*, handler=<bound method Portfolio.update_account of <nautilus_trader.portfolio.portfolio.Portfolio object at 0x000001CD5CF8CCC0>>, priority=10).
+2023-11-25T23:02:11.213885400Z [INF] BACKTESTER-001.DataEngine: READY.
+2023-11-25T23:02:11.214222900Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'DataEngine.execute' <bound method DataEngine.execute of DataEngine(DataEngine)>.
+2023-11-25T23:02:11.214255200Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'DataEngine.process' <bound method DataEngine.process of DataEngine(DataEngine)>.
+2023-11-25T23:02:11.214260600Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'DataEngine.request' <bound method DataEngine.request of DataEngine(DataEngine)>.
+2023-11-25T23:02:11.214264500Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'DataEngine.response' <bound method DataEngine.response of DataEngine(DataEngine)>.
+2023-11-25T23:02:11.214382200Z [INF] BACKTESTER-001.RiskEngine: READY.
+2023-11-25T23:02:11.214577100Z [INF] BACKTESTER-001.RiskEngine: TradingState is ACTIVE.
+2023-11-25T23:02:11.214805500Z [INF] BACKTESTER-001.Throttler-ORDER_SUBMIT_THROTTLER: READY.
+2023-11-25T23:02:11.214870900Z [INF] BACKTESTER-001.RiskEngine: Set MAX_ORDER_SUBMIT_RATE: 100/00:00:01.
+2023-11-25T23:02:11.214945600Z [INF] BACKTESTER-001.Throttler-ORDER_MODIFY_THROTTLER: READY.
+2023-11-25T23:02:11.214971700Z [INF] BACKTESTER-001.RiskEngine: Set MAX_ORDER_MODIFY_RATE: 100/00:00:01.
+2023-11-25T23:02:11.214994900Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'RiskEngine.execute' <bound method RiskEngine.execute of RiskEngine(RiskEngine)>.
+2023-11-25T23:02:11.215000500Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'RiskEngine.process' <bound method RiskEngine.process of RiskEngine(RiskEngine)>.
+2023-11-25T23:02:11.215064300Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.order.*, handler=<bound method RiskEngine._handle_event of RiskEngine(RiskEngine)>, priority=10).
+2023-11-25T23:02:11.215123800Z [DBG] BACKTESTER-001.MessageBus: Added Subscription(topic=events.position.*, handler=<bound method RiskEngine._handle_event of RiskEngine(RiskEngine)>, priority=10).
+2023-11-25T23:02:11.215209900Z [INF] BACKTESTER-001.ExecEngine: READY.
+2023-11-25T23:02:11.215672400Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'ExecEngine.execute' <bound method ExecutionEngine.execute of ExecutionEngine(ExecEngine)>.
+2023-11-25T23:02:11.215697500Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'ExecEngine.process' <bound method ExecutionEngine.process of ExecutionEngine(ExecEngine)>.
+2023-11-25T23:02:11.215751100Z [DBG] BACKTESTER-001.Cache: Loading general cache from database...
+2023-11-25T23:02:11.215757500Z [INF] BACKTESTER-001.Cache: Cached 0 general objects from database.
+2023-11-25T23:02:11.215764400Z [DBG] BACKTESTER-001.Cache: Loading currencies from database...
+2023-11-25T23:02:11.215767400Z [INF] BACKTESTER-001.Cache: Cached 0 currencies from database.
+2023-11-25T23:02:11.215768900Z [DBG] BACKTESTER-001.Cache: Loading instruments from database...
+2023-11-25T23:02:11.215771100Z [INF] BACKTESTER-001.Cache: Cached 0 instruments from database.
+2023-11-25T23:02:11.215776500Z [DBG] BACKTESTER-001.Cache: Loading accounts from database...
+2023-11-25T23:02:11.215782800Z [INF] BACKTESTER-001.Cache: Cached 0 accounts from database.
+2023-11-25T23:02:11.215784400Z [DBG] BACKTESTER-001.Cache: Loading orders from database...
+2023-11-25T23:02:11.215800800Z [INF] BACKTESTER-001.Cache: Cached 0 orders from database.
+2023-11-25T23:02:11.215809900Z [DBG] BACKTESTER-001.Cache: Loading order lists...
+2023-11-25T23:02:11.215812900Z [INF] BACKTESTER-001.Cache: Cached 0 order lists from database.
+2023-11-25T23:02:11.215828500Z [DBG] BACKTESTER-001.Cache: Loading positions from database...
+2023-11-25T23:02:11.215830800Z [INF] BACKTESTER-001.Cache: Cached 0 positions from database.
+2023-11-25T23:02:11.215836400Z [DBG] BACKTESTER-001.Cache: Clearing index...
+2023-11-25T23:02:11.215844200Z [DBG] BACKTESTER-001.Cache: Cleared index.
+2023-11-25T23:02:11.215845800Z [DBG] BACKTESTER-001.Cache: Building index...
+2023-11-25T23:02:11.215890400Z [DBG] BACKTESTER-001.Cache: Index built in 0.000s.
+2023-11-25T23:02:11.215901200Z [INF] BACKTESTER-001.Cache: Checking data integrity...
+2023-11-25T23:02:11.215955800Z [INF] BACKTESTER-001.Cache: Integrity check passed in 45μs.
+2023-11-25T23:02:11.215993800Z [INF] BACKTESTER-001.ExecEngine: Loaded cache in 0ms.
+2023-11-25T23:02:11.216368000Z [INF] BACKTESTER-001.OrderEmulator: READY.
+2023-11-25T23:02:11.216674100Z [DBG] BACKTESTER-001.MessageBus: Added endpoint 'OrderEmulator.execute' <bound method OrderEmulator.execute of OrderEmulator(OrderEmulator)>.
+2023-11-25T23:02:11.216729300Z [INF] BACKTESTER-001.BACKTESTER-001: READY.
+2023-11-25T23:02:11.216991100Z [INF] BACKTESTER-001.BacktestEngine: Initialized in 81ms.
+2023-11-25T23:02:11.217217700Z [INF] BACKTESTER-001.SimulatedExchange(SIM): OmsType=NETTING
+2023-11-25T23:02:11.217367600Z [INF] BACKTESTER-001.ExecClient-SIM: READY.
+2023-11-25T23:02:11.217606900Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Registered ExecutionClient-SIM.
+2023-11-25T23:02:11.217640300Z [INF] BACKTESTER-001.ExecEngine: Registered ExecutionClient-SIM.
+2023-11-25T23:02:11.217656600Z [INF] BACKTESTER-001.BacktestEngine: Added SimulatedExchange(id=SIM, oms_type=NETTING, account_type=MARGIN).
+2023-11-25T23:02:11.252017700Z [INF] BACKTESTER-001.DataClient-SIM: READY.
+2023-11-25T23:02:11.252134000Z [INF] BACKTESTER-001.DataEngine: Registered SIM.
+2023-11-25T23:02:11.252206300Z [DBG] BACKTESTER-001.Cache: Added instrument AUD/CAD.SIM.
+2023-11-25T23:02:11.252605900Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Added instrument AUD/CAD.SIM and created matching engine.
+2023-11-25T23:02:11.252629900Z [INF] BACKTESTER-001.BacktestEngine: Added AUD/CAD.SIM Instrument.
+2023-11-25T23:02:11.252859600Z [INF] BACKTESTER-001.BacktestEngine: Added 545 AUD/CAD.SIM-1-DAY-LAST-EXTERNAL Bar elements.
+2023-11-25T23:02:11.268925000Z [DBG] BACKTESTER-001.Cache: Added instrument AUD/JPY.SIM.
+2023-11-25T23:02:11.269238200Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Added instrument AUD/JPY.SIM and created matching engine.
+2023-11-25T23:02:11.269261000Z [INF] BACKTESTER-001.BacktestEngine: Added AUD/JPY.SIM Instrument.
+2023-11-25T23:02:11.269821700Z [INF] BACKTESTER-001.BacktestEngine: Added 545 AUD/JPY.SIM-1-DAY-LAST-EXTERNAL Bar elements.
+2023-11-25T23:02:11.283169700Z [DBG] BACKTESTER-001.Cache: Added instrument AUD/NZD.SIM.
+2023-11-25T23:02:11.283423100Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Added instrument AUD/NZD.SIM and created matching engine.
+2023-11-25T23:02:11.283441400Z [INF] BACKTESTER-001.BacktestEngine: Added AUD/NZD.SIM Instrument.
+2023-11-25T23:02:11.283795300Z [INF] BACKTESTER-001.BacktestEngine: Added 545 AUD/NZD.SIM-1-DAY-LAST-EXTERNAL Bar elements.
+2023-11-25T23:02:15.591653400Z [DBG] BACKTESTER-001.Cache: Added Account(id=SIM-001).
+2023-11-25T23:02:15.591686100Z [DBG] BACKTESTER-001.Cache: Indexed AccountId('SIM-001').
+2023-11-25T23:02:15.591735500Z [INF] BACKTESTER-001.Portfolio: Updated AccountState(account_id=SIM-001, account_type=MARGIN, base_currency=USD, is_reported=True, balances=[AccountBalance(total=100_000.00 USD, locked=0.00 USD, free=100_000.00 USD)], margins=[], event_id=0ba28f0d-8b71-4355-ad39-c8a3f495fa89).
+2023-11-25T23:02:15.591797100Z [INF] BACKTESTER-001.BacktestEngine: STARTING...
+2023-11-25T23:02:15.591828200Z [INF] BACKTESTER-001.DataEngine: STARTING...
+2023-11-25T23:02:15.591852300Z [INF] BACKTESTER-001.DataClient-SIM: STARTING...
+2023-11-25T23:02:15.591859800Z [INF] BACKTESTER-001.DataClient-SIM: Connecting...
+2023-11-25T23:02:15.591861200Z [INF] BACKTESTER-001.DataClient-SIM: Connected.
+2023-11-25T23:02:15.591900300Z [INF] BACKTESTER-001.DataClient-SIM: RUNNING.
+2023-11-25T23:02:15.591928900Z [INF] BACKTESTER-001.DataEngine: RUNNING.
+2023-11-25T23:02:15.591947100Z [INF] BACKTESTER-001.RiskEngine: STARTING...
+2023-11-25T23:02:15.591978300Z [INF] BACKTESTER-001.RiskEngine: RUNNING.
+2023-11-25T23:02:15.591995300Z [INF] BACKTESTER-001.ExecEngine: STARTING...
+2023-11-25T23:02:15.592010200Z [INF] BACKTESTER-001.ExecClient-SIM: STARTING...
+2023-11-25T23:02:15.592016900Z [INF] BACKTESTER-001.ExecClient-SIM: Connecting...
+2023-11-25T23:02:15.592018200Z [INF] BACKTESTER-001.ExecClient-SIM: Connected.
+2023-11-25T23:02:15.592034000Z [INF] BACKTESTER-001.ExecClient-SIM: RUNNING.
+2023-11-25T23:02:15.592057900Z [INF] BACKTESTER-001.ExecEngine: RUNNING.
+2023-11-25T23:02:15.592072800Z [INF] BACKTESTER-001.DataEngine: Connecting all clients...
+2023-11-25T23:02:15.592075500Z [INF] BACKTESTER-001.ExecEngine: Connecting all clients...
+2023-11-25T23:02:15.592082200Z [INF] BACKTESTER-001.OrderEmulator: STARTING...
+2023-11-25T23:02:15.592110100Z [INF] BACKTESTER-001.OrderEmulator: No emulated orders to reactivate.
+2023-11-25T23:02:15.592128100Z [INF] BACKTESTER-001.OrderEmulator: RUNNING.
+2023-11-25T23:02:15.592153800Z [INF] BACKTESTER-001.Portfolio: Initialized 0 open orders.
+2023-11-25T23:02:15.592174000Z [INF] BACKTESTER-001.Portfolio: Initialized 0 open positions.
+2023-11-25T23:02:15.592181700Z [INF] BACKTESTER-001.BACKTESTER-001: STARTING...
+2023-11-25T23:02:15.592227900Z [INF] BACKTESTER-001.BACKTESTER-001: RUNNING.
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: [36m MEMORY USAGE
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: RAM-Total: 17,006 MB
-2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: RAM-Used:  7,546 MB (44.40%)
-2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: RAM-Avail: 9,460 MB (55.60%)
+2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: RAM-Used:  8,056 MB (47.40%)
+2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: RAM-Avail: 8,950 MB (52.60%)
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: [36m SimulatedVenue SIM
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
@@ -161,8 +161,8 @@
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: [36m BACKTEST RUN
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: Run config ID:  None
-2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: Run ID:         8096984d-4381-4e4e-bac4-e8dae57f626e
-2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: Run started:    2023-11-25 01:28:47.293260800+00:00
+2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: Run ID:         a707a148-fe6e-4f3e-8c21-41db690b3740
+2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: Run started:    2023-11-25 23:02:15.591392400+00:00
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: Backtest start: 2021-10-20 00:00:00+00:00
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: Batch start:    2021-10-20 00:00:00+00:00
 2021-10-20T00:00:00.000000000Z [INF] BACKTESTER-001.BacktestEngine: Batch end:      2023-11-21 00:00:00+00:00
@@ -170,8 +170,9 @@
 2021-10-20T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/CAD.SIM-1-DAY-LAST-EXTERNAL,0.92369,0.92682,0.92236,0.92591,48401,1634688000000000000)...
 2021-10-20T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/JPY.SIM-1-DAY-LAST-EXTERNAL,85.419,85.965,85.351,85.849,54519,1634688000000000000)...
 2021-10-20T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/NZD.SIM-1-DAY-LAST-EXTERNAL,1.04444,1.04562,1.04229,1.04337,43788,1634688000000000000)...
-2021-10-21T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatch
-ar(AUD/NZD.SIM-1-DAY-LAST-EXTERNAL,1.04337,1.04630,1.04169,1.04308,45966,1634774400000000000)...
+2021-10-21T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/CAD.SIM-1-DAY-LAST-EXTERNAL,0.92530,0.92781,0.92211,0.92320,48800,1634774400000000000)...
+2021-10-21T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/JPY.SIM-1-DAY-LAST-EXTERNAL,85.849,86.252,84.886,85.091,64200,1634774400000000000)...
+2021-10-21T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/NZD.SIM-1-DAY-LAST-EXTERNAL,1.04337,1.04630,1.04169,1.04308,45966,1634774400000000000)...
 2021-10-22T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/CAD.SIM-1-DAY-LAST-EXTERNAL,0.92289,0.92628,0.92195,0.92342,54131,1634860800000000000)...
 2021-10-22T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/JPY.SIM-1-DAY-LAST-EXTERNAL,85.070,85.542,84.603,84.731,65976,1634860800000000000)...
 2021-10-22T00:00:00.000000000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Processing Bar(AUD/NZD.SIM-1-DAY-LAST-EXTERNAL,1.04308,1.04954,1.04150,1.04421,48049,1634860800000000000)...
@@ -1819,93 +1820,93 @@ ar(AUD/NZD.SIM-1-DAY-LAST-EXTERNAL,1.04337,1.04630,1.04169,1.04308,45966,1634774
 2023-11-21T00:00:00.000000000Z [INF] BACKTESTER-001.ExecEngine: STOPPED.
 2023-11-21T00:00:00.000000000Z [INF] BACKTESTER-001.OrderEmulator: STOPPING...
 2023-11-21T00:00:00.000000000Z [INF] BACKTESTER-001.OrderEmulator: STOPPED.
-2023-11-25T01:28:47.416730500Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:47.416737300Z [INF] BACKTESTER-001.BacktestEngine: [36m BACKTEST POST-RUN
-2023-11-25T01:28:47.416738200Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:47.416739200Z [INF] BACKTESTER-001.BacktestEngine: Run config ID:  None
-2023-11-25T01:28:47.416741600Z [INF] BACKTESTER-001.BacktestEngine: Run ID:         8096984d-4381-4e4e-bac4-e8dae57f626e
-2023-11-25T01:28:47.416770200Z [INF] BACKTESTER-001.BacktestEngine: Run started:    2023-11-25 01:28:47.293260800+00:00
-2023-11-25T01:28:47.416777400Z [INF] BACKTESTER-001.BacktestEngine: Run finished:   2023-11-25 01:28:47.416642+00:00
-2023-11-25T01:28:47.416801800Z [INF] BACKTESTER-001.BacktestEngine: Elapsed time:   0 days 00:00:00.123381200
-2023-11-25T01:28:47.416808600Z [INF] BACKTESTER-001.BacktestEngine: Backtest start: 2021-10-20 00:00:00+00:00
-2023-11-25T01:28:47.416814000Z [INF] BACKTESTER-001.BacktestEngine: Backtest end:   2023-11-21 00:00:00+00:00
-2023-11-25T01:28:47.416823000Z [INF] BACKTESTER-001.BacktestEngine: Backtest range: 762 days 00:00:00
-2023-11-25T01:28:47.416825400Z [INF] BACKTESTER-001.BacktestEngine: Iterations: 1,635
-2023-11-25T01:28:47.416830700Z [INF] BACKTESTER-001.BacktestEngine: Total events: 0
-2023-11-25T01:28:47.416843300Z [INF] BACKTESTER-001.BacktestEngine: Total orders: 0
-2023-11-25T01:28:47.416851500Z [INF] BACKTESTER-001.BacktestEngine: Total positions: 0
-2023-11-25T01:28:47.416857300Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:47.416861300Z [INF] BACKTESTER-001.BacktestEngine: [36m SimulatedVenue SIM
-2023-11-25T01:28:47.416862000Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:47.416868900Z [INF] BACKTESTER-001.BacktestEngine: MarginAccount(id=SIM-001, type=MARGIN, base=USD)
-2023-11-25T01:28:47.416869600Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
-2023-11-25T01:28:47.416870700Z [INF] BACKTESTER-001.BacktestEngine: Balances starting:
-2023-11-25T01:28:47.416882100Z [INF] BACKTESTER-001.BacktestEngine: 100_000.00 USD
-2023-11-25T01:28:47.416883000Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
-2023-11-25T01:28:47.416883500Z [INF] BACKTESTER-001.BacktestEngine: Balances ending:
-2023-11-25T01:28:47.416891600Z [INF] BACKTESTER-001.BacktestEngine: 100_000.00 USD
-2023-11-25T01:28:47.416892500Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
-2023-11-25T01:28:47.416893100Z [INF] BACKTESTER-001.BacktestEngine: Commissions:
-2023-11-25T01:28:47.416906600Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
-2023-11-25T01:28:47.416907300Z [INF] BACKTESTER-001.BacktestEngine: Unrealized PnLs (included in totals):
-2023-11-25T01:28:47.416951800Z [INF] BACKTESTER-001.BacktestEngine: None
-2023-11-25T01:28:47.416953800Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:47.416954500Z [INF] BACKTESTER-001.BacktestEngine: [36m PORTFOLIO PERFORMANCE
-2023-11-25T01:28:47.416955100Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
-2023-11-25T01:28:47.417265200Z [INF] BACKTESTER-001.BacktestEngine:  Returns Statistics
-2023-11-25T01:28:47.417273700Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
-2023-11-25T01:28:47.417335000Z [INF] BACKTESTER-001.BacktestEngine: Returns Volatility (252 days):  nan
-2023-11-25T01:28:47.417339900Z [INF] BACKTESTER-001.BacktestEngine: Average (Return):               nan
-2023-11-25T01:28:47.417340400Z [INF] BACKTESTER-001.BacktestEngine: Average Loss (Return):          nan
-2023-11-25T01:28:47.417342200Z [INF] BACKTESTER-001.BacktestEngine: Average Win (Return):           nan
-2023-11-25T01:28:47.417342600Z [INF] BACKTESTER-001.BacktestEngine: Sharpe Ratio (252 days):        nan
-2023-11-25T01:28:47.417343100Z [INF] BACKTESTER-001.BacktestEngine: Sortino Ratio (252 days):       nan
-2023-11-25T01:28:47.417343500Z [INF] BACKTESTER-001.BacktestEngine: Profit Factor:                  nan
-2023-11-25T01:28:47.417343900Z [INF] BACKTESTER-001.BacktestEngine: Risk Return Ratio:              nan
-2023-11-25T01:28:47.417344700Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
-2023-11-25T01:28:47.417345200Z [INF] BACKTESTER-001.BacktestEngine:  General Statistics
-2023-11-25T01:28:47.417345800Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
-2023-11-25T01:28:47.417359600Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
-2023-11-25T01:28:47.425810000Z [DBG] BACKTESTER-001.BacktestEngine: Resetting...
-2023-11-25T01:28:47.425849900Z [INF] BACKTESTER-001.DataEngine: RESETTING...
-2023-11-25T01:28:47.425859200Z [INF] BACKTESTER-001.DataClient-SIM: RESETTING...
-2023-11-25T01:28:47.425899400Z [INF] BACKTESTER-001.DataClient-SIM: READY.
-2023-11-25T01:28:47.425921900Z [INF] BACKTESTER-001.DataEngine: READY.
-2023-11-25T01:28:47.425933000Z [INF] BACKTESTER-001.ExecEngine: RESETTING...
-2023-11-25T01:28:47.425939600Z [INF] BACKTESTER-001.ExecClient-SIM: RESETTING...
-2023-11-25T01:28:47.425947500Z [INF] BACKTESTER-001.ExecClient-SIM: READY.
-2023-11-25T01:28:47.425953800Z [INF] BACKTESTER-001.Cache: Resetting cache...
-2023-11-25T01:28:47.425993400Z [DBG] BACKTESTER-001.Cache: Clearing index...
-2023-11-25T01:28:47.425995800Z [DBG] BACKTESTER-001.Cache: Cleared index.
-2023-11-25T01:28:47.425996900Z [DBG] BACKTESTER-001.Cache: Reset cache.
-2023-11-25T01:28:47.426007200Z [INF] BACKTESTER-001.ExecEngine: READY.
-2023-11-25T01:28:47.426017400Z [INF] BACKTESTER-001.RiskEngine: RESETTING...
-2023-11-25T01:28:47.426031300Z [INF] BACKTESTER-001.RiskEngine: READY.
-2023-11-25T01:28:47.426040200Z [INF] BACKTESTER-001.BACKTESTER-001: RESETTING...
-2023-11-25T01:28:47.426048200Z [DBG] BACKTESTER-001.Portfolio: Resetting...
-2023-11-25T01:28:47.426126600Z [INF] BACKTESTER-001.Portfolio: Reset.
-2023-11-25T01:28:47.426148600Z [INF] BACKTESTER-001.BACKTESTER-001: READY.
-2023-11-25T01:28:47.426158100Z [DBG] BACKTESTER-001.SimulatedExchange(SIM): Resetting...
-2023-11-25T01:28:47.426232700Z [DBG] BACKTESTER-001.Cache: Added Account(id=SIM-001).
-2023-11-25T01:28:47.426241400Z [DBG] BACKTESTER-001.Cache: Indexed AccountId('SIM-001').
-2023-11-25T01:28:47.426261000Z [INF] BACKTESTER-001.Portfolio: Updated AccountState(account_id=SIM-001, account_type=MARGIN, base_currency=USD, is_reported=True, balances=[AccountBalance(total=100_000.00 USD, locked=0.00 USD, free=100_000.00 USD)], margins=[], event_id=758b18c0-5a57-49b7-a01f-bdf48d62e4ee).
-2023-11-25T01:28:47.426292000Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Resetting OrderMatchingEngine AUD/CAD.SIM...
-2023-11-25T01:28:47.426310300Z [INF] BACKTESTER-001.OrderMatchingEngine(SIM): Reset OrderMatchingEngine AUD/CAD.SIM.
-2023-11-25T01:28:47.426317500Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Resetting OrderMatchingEngine AUD/JPY.SIM...
-2023-11-25T01:28:47.426321700Z [INF] BACKTESTER-001.OrderMatchingEngine(SIM): Reset OrderMatchingEngine AUD/JPY.SIM.
-2023-11-25T01:28:47.426323600Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Resetting OrderMatchingEngine AUD/NZD.SIM...
-2023-11-25T01:28:47.426327500Z [INF] BACKTESTER-001.OrderMatchingEngine(SIM): Reset OrderMatchingEngine AUD/NZD.SIM.
-2023-11-25T01:28:47.426330900Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Reset.
-2023-11-25T01:28:47.426333200Z [INF] BACKTESTER-001.BacktestEngine: Reset.
-2023-11-25T01:28:47.426379000Z [INF] BACKTESTER-001.DataEngine: DISPOSING...
-2023-11-25T01:28:47.426382300Z [INF] BACKTESTER-001.DataClient-SIM: DISPOSING...
-2023-11-25T01:28:47.426395800Z [INF] BACKTESTER-001.DataClient-SIM: DISPOSED.
-2023-11-25T01:28:47.426409100Z [INF] BACKTESTER-001.DataEngine: DISPOSED.
-2023-11-25T01:28:47.426418800Z [INF] BACKTESTER-001.RiskEngine: DISPOSING...
-2023-11-25T01:28:47.426426800Z [INF] BACKTESTER-001.RiskEngine: DISPOSED.
-2023-11-25T01:28:47.426436600Z [INF] BACKTESTER-001.ExecEngine: DISPOSING...
-2023-11-25T01:28:47.426439800Z [INF] BACKTESTER-001.ExecClient-SIM: DISPOSING...
-2023-11-25T01:28:47.426447200Z [INF] BACKTESTER-001.ExecClient-SIM: DISPOSED.
-2023-11-25T01:28:47.426458500Z [INF] BACKTESTER-001.ExecEngine: DISPOSED.
-2023-11-25T01:28:47.426466700Z [INF] BACKTESTER-001.BACKTESTER-001: DISPOSING...
-2023-11-25T01:28:47.426476100Z [INF] BACKTESTER-001.BACKTESTER-001: DISPOSED.
+2023-11-25T23:02:15.805158500Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:15.805161100Z [INF] BACKTESTER-001.BacktestEngine: [36m BACKTEST POST-RUN
+2023-11-25T23:02:15.805162100Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:15.805163300Z [INF] BACKTESTER-001.BacktestEngine: Run config ID:  None
+2023-11-25T23:02:15.805165800Z [INF] BACKTESTER-001.BacktestEngine: Run ID:         a707a148-fe6e-4f3e-8c21-41db690b3740
+2023-11-25T23:02:15.805196400Z [INF] BACKTESTER-001.BacktestEngine: Run started:    2023-11-25 23:02:15.591392400+00:00
+2023-11-25T23:02:15.805206700Z [INF] BACKTESTER-001.BacktestEngine: Run finished:   2023-11-25 23:02:15.805067300+00:00
+2023-11-25T23:02:15.805236500Z [INF] BACKTESTER-001.BacktestEngine: Elapsed time:   0 days 00:00:00.213674900
+2023-11-25T23:02:15.805245400Z [INF] BACKTESTER-001.BacktestEngine: Backtest start: 2021-10-20 00:00:00+00:00
+2023-11-25T23:02:15.805252000Z [INF] BACKTESTER-001.BacktestEngine: Backtest end:   2023-11-21 00:00:00+00:00
+2023-11-25T23:02:15.805262000Z [INF] BACKTESTER-001.BacktestEngine: Backtest range: 762 days 00:00:00
+2023-11-25T23:02:15.805266000Z [INF] BACKTESTER-001.BacktestEngine: Iterations: 1,635
+2023-11-25T23:02:15.805272500Z [INF] BACKTESTER-001.BacktestEngine: Total events: 0
+2023-11-25T23:02:15.805288400Z [INF] BACKTESTER-001.BacktestEngine: Total orders: 0
+2023-11-25T23:02:15.805298400Z [INF] BACKTESTER-001.BacktestEngine: Total positions: 0
+2023-11-25T23:02:15.805304900Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:15.805309800Z [INF] BACKTESTER-001.BacktestEngine: [36m SimulatedVenue SIM
+2023-11-25T23:02:15.805310600Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:15.805319300Z [INF] BACKTESTER-001.BacktestEngine: MarginAccount(id=SIM-001, type=MARGIN, base=USD)
+2023-11-25T23:02:15.805320400Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
+2023-11-25T23:02:15.805321800Z [INF] BACKTESTER-001.BacktestEngine: Balances starting:
+2023-11-25T23:02:15.805334500Z [INF] BACKTESTER-001.BacktestEngine: 100_000.00 USD
+2023-11-25T23:02:15.805335600Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
+2023-11-25T23:02:15.805336400Z [INF] BACKTESTER-001.BacktestEngine: Balances ending:
+2023-11-25T23:02:15.805346200Z [INF] BACKTESTER-001.BacktestEngine: 100_000.00 USD
+2023-11-25T23:02:15.805347400Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
+2023-11-25T23:02:15.805348100Z [INF] BACKTESTER-001.BacktestEngine: Commissions:
+2023-11-25T23:02:15.805352500Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
+2023-11-25T23:02:15.805353400Z [INF] BACKTESTER-001.BacktestEngine: Unrealized PnLs (included in totals):
+2023-11-25T23:02:15.805377000Z [INF] BACKTESTER-001.BacktestEngine: None
+2023-11-25T23:02:15.805379200Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:15.805379900Z [INF] BACKTESTER-001.BacktestEngine: [36m PORTFOLIO PERFORMANCE
+2023-11-25T23:02:15.805380600Z [INF] BACKTESTER-001.BacktestEngine: [36m=================================================================
+2023-11-25T23:02:15.805735300Z [INF] BACKTESTER-001.BacktestEngine:  Returns Statistics
+2023-11-25T23:02:15.805746900Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
+2023-11-25T23:02:15.805821800Z [INF] BACKTESTER-001.BacktestEngine: Returns Volatility (252 days):  nan
+2023-11-25T23:02:15.805828100Z [INF] BACKTESTER-001.BacktestEngine: Average (Return):               nan
+2023-11-25T23:02:15.805829000Z [INF] BACKTESTER-001.BacktestEngine: Average Loss (Return):          nan
+2023-11-25T23:02:15.805831300Z [INF] BACKTESTER-001.BacktestEngine: Average Win (Return):           nan
+2023-11-25T23:02:15.805831900Z [INF] BACKTESTER-001.BacktestEngine: Sharpe Ratio (252 days):        nan
+2023-11-25T23:02:15.805833100Z [INF] BACKTESTER-001.BacktestEngine: Sortino Ratio (252 days):       nan
+2023-11-25T23:02:15.805840300Z [INF] BACKTESTER-001.BacktestEngine: Profit Factor:                  nan
+2023-11-25T23:02:15.805840900Z [INF] BACKTESTER-001.BacktestEngine: Risk Return Ratio:              nan
+2023-11-25T23:02:15.805841900Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
+2023-11-25T23:02:15.805842600Z [INF] BACKTESTER-001.BacktestEngine:  General Statistics
+2023-11-25T23:02:15.805843300Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
+2023-11-25T23:02:15.805860200Z [INF] BACKTESTER-001.BacktestEngine: [36m-----------------------------------------------------------------
+2023-11-25T23:02:15.817156700Z [DBG] BACKTESTER-001.BacktestEngine: Resetting...
+2023-11-25T23:02:15.817208600Z [INF] BACKTESTER-001.DataEngine: RESETTING...
+2023-11-25T23:02:15.817220600Z [INF] BACKTESTER-001.DataClient-SIM: RESETTING...
+2023-11-25T23:02:15.817268100Z [INF] BACKTESTER-001.DataClient-SIM: READY.
+2023-11-25T23:02:15.817297100Z [INF] BACKTESTER-001.DataEngine: READY.
+2023-11-25T23:02:15.817313300Z [INF] BACKTESTER-001.ExecEngine: RESETTING...
+2023-11-25T23:02:15.817319600Z [INF] BACKTESTER-001.ExecClient-SIM: RESETTING...
+2023-11-25T23:02:15.817330000Z [INF] BACKTESTER-001.ExecClient-SIM: READY.
+2023-11-25T23:02:15.817338600Z [INF] BACKTESTER-001.Cache: Resetting cache...
+2023-11-25T23:02:15.817377700Z [DBG] BACKTESTER-001.Cache: Clearing index...
+2023-11-25T23:02:15.817381000Z [DBG] BACKTESTER-001.Cache: Cleared index.
+2023-11-25T23:02:15.817396600Z [DBG] BACKTESTER-001.Cache: Reset cache.
+2023-11-25T23:02:15.817412300Z [INF] BACKTESTER-001.ExecEngine: READY.
+2023-11-25T23:02:15.817425900Z [INF] BACKTESTER-001.RiskEngine: RESETTING...
+2023-11-25T23:02:15.817442500Z [INF] BACKTESTER-001.RiskEngine: READY.
+2023-11-25T23:02:15.817453900Z [INF] BACKTESTER-001.BACKTESTER-001: RESETTING...
+2023-11-25T23:02:15.817463900Z [DBG] BACKTESTER-001.Portfolio: Resetting...
+2023-11-25T23:02:15.817572600Z [INF] BACKTESTER-001.Portfolio: Reset.
+2023-11-25T23:02:15.817601800Z [INF] BACKTESTER-001.BACKTESTER-001: READY.
+2023-11-25T23:02:15.817617400Z [DBG] BACKTESTER-001.SimulatedExchange(SIM): Resetting...
+2023-11-25T23:02:15.817711300Z [DBG] BACKTESTER-001.Cache: Added Account(id=SIM-001).
+2023-11-25T23:02:15.817716100Z [DBG] BACKTESTER-001.Cache: Indexed AccountId('SIM-001').
+2023-11-25T23:02:15.817742700Z [INF] BACKTESTER-001.Portfolio: Updated AccountState(account_id=SIM-001, account_type=MARGIN, base_currency=USD, is_reported=True, balances=[AccountBalance(total=100_000.00 USD, locked=0.00 USD, free=100_000.00 USD)], margins=[], event_id=0e967a0b-088a-40cc-aad2-958e25c9c0ea).
+2023-11-25T23:02:15.817767800Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Resetting OrderMatchingEngine AUD/CAD.SIM...
+2023-11-25T23:02:15.817791400Z [INF] BACKTESTER-001.OrderMatchingEngine(SIM): Reset OrderMatchingEngine AUD/CAD.SIM.
+2023-11-25T23:02:15.817799700Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Resetting OrderMatchingEngine AUD/JPY.SIM...
+2023-11-25T23:02:15.817804900Z [INF] BACKTESTER-001.OrderMatchingEngine(SIM): Reset OrderMatchingEngine AUD/JPY.SIM.
+2023-11-25T23:02:15.817808200Z [DBG] BACKTESTER-001.OrderMatchingEngine(SIM): Resetting OrderMatchingEngine AUD/NZD.SIM...
+2023-11-25T23:02:15.817813800Z [INF] BACKTESTER-001.OrderMatchingEngine(SIM): Reset OrderMatchingEngine AUD/NZD.SIM.
+2023-11-25T23:02:15.817817500Z [INF] BACKTESTER-001.SimulatedExchange(SIM): Reset.
+2023-11-25T23:02:15.817820900Z [INF] BACKTESTER-001.BacktestEngine: Reset.
+2023-11-25T23:02:15.817871800Z [INF] BACKTESTER-001.DataEngine: DISPOSING...
+2023-11-25T23:02:15.817876700Z [INF] BACKTESTER-001.DataClient-SIM: DISPOSING...
+2023-11-25T23:02:15.817910000Z [INF] BACKTESTER-001.DataClient-SIM: DISPOSED.
+2023-11-25T23:02:15.817929200Z [INF] BACKTESTER-001.DataEngine: DISPOSED.
+2023-11-25T23:02:15.817941000Z [INF] BACKTESTER-001.RiskEngine: DISPOSING...
+2023-11-25T23:02:15.817951300Z [INF] BACKTESTER-001.RiskEngine: DISPOSED.
+2023-11-25T23:02:15.817972500Z [INF] BACKTESTER-001.ExecEngine: DISPOSING...
+2023-11-25T23:02:15.817977100Z [INF] BACKTESTER-001.ExecClient-SIM: DISPOSING...
+2023-11-25T23:02:15.817989300Z [INF] BACKTESTER-001.ExecClient-SIM: DISPOSED.
+2023-11-25T23:02:15.818004500Z [INF] BACKTESTER-001.ExecEngine: DISPOSED.
+2023-11-25T23:02:15.818015600Z [INF] BACKTESTER-001.BACKTESTER-001: DISPOSING...
+2023-11-25T23:02:15.818027900Z [INF] BACKTESTER-001.BACKTESTER-001: DISPOSED.

@@ -64,12 +64,15 @@ if __name__ == "__main__":
       engine.add_data(bars)
 
     # strategy
+    print("This is a message before the strategy is defined.")
 
     class BuyAndHold(Strategy):
       def __init__(self) -> None:
         super().__init__() 
-
+        self.log.debug("Initializing strategy")
+        self.log.error("This is an error message")
       def on_start(self) -> None:
+        self.log.debug("Starting strategy")
         self.instrument = self.cache.instrument(self.instrument_id)
         if self.instrument is None:
           self.log.error(f"Could not find instrument for {self.instrument_id}")
@@ -86,6 +89,7 @@ if __name__ == "__main__":
         self.close_all_positions(self.instrument_id)
 
       def on_bar(self) -> None:
+        self.log.info("Received", self.bar_type, "bar")
         try:
           self.order_factory.market(
             instrument_id=instrument.id.value,
@@ -95,6 +99,8 @@ if __name__ == "__main__":
         except:
           self.log.warning("Did not place an order.")
       
+    print("This is a message after the strategy is defined.")
+    
     time.sleep(0.1)
     input("Press Enter to continue...")
 
