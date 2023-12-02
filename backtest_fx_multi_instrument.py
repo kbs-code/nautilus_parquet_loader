@@ -16,7 +16,7 @@ from nautilus_trader.backtest.node import (
                                           )
 from nautilus_trader.config import LoggingConfig
 from nautilus_trader.config.common import ImportableStrategyConfig
-
+from strategies import BuyAndHold, BuyAndHoldConfig
 
 # catalog contains several tickers with bar data
 CATALOG_PATH = os.getcwd() + "/catalog"
