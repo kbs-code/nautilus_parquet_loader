@@ -16,8 +16,8 @@ from nautilus_trader.backtest.node import (
                                           )
 from nautilus_trader.config import LoggingConfig
 from nautilus_trader.config.common import ImportableStrategyConfig
-from strategies import BuyAndHold, BuyAndHoldConfig
-
+from strategies.BuyAndHold import BuyAndHoldConfig
+from strategies.BuyAndHold import BuyAndHold
 # catalog contains several tickers with bar data
 CATALOG_PATH = os.getcwd() + "/catalog"
 catalog = ParquetDataCatalog(CATALOG_PATH)
@@ -46,8 +46,8 @@ data_configs = [
 
 strategies = [
     ImportableStrategyConfig(
-      strategy_path="./strategies/BuyAndHold.py:BuyAndHold",
-      config_path="./strategies/BuyAndHold.py:BuyAndHoldConfig",
+      strategy_path=BuyAndHold,
+      config_path=BuyAndHoldConfig,
       config=dict(
         instrument_id=instrument.id.value,
         bar_type=f"{instrument.id.value}-1-DAY-LAST-EXTERNAL",
