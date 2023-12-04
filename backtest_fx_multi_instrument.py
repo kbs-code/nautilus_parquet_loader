@@ -2,8 +2,6 @@
 # I published it so that I could share the code, ask for help, 
 # and get feedback from the community.
 
-
-import pandas as pd
 import os
 from nautilus_trader.persistence.catalog import ParquetDataCatalog 
 from nautilus_trader.model.data import Bar
@@ -18,12 +16,11 @@ from nautilus_trader.config import LoggingConfig
 from nautilus_trader.config.common import ImportableStrategyConfig
 from strategies.BuyAndHold import BuyAndHoldConfig
 from strategies.BuyAndHold import BuyAndHold
-# catalog contains several tickers with bar data
+
 CATALOG_PATH = os.getcwd() + "/catalog"
 catalog = ParquetDataCatalog(CATALOG_PATH)
 
 bars = catalog.bars()
-
 instrument = catalog.instruments(as_nautilus=True)[0]
 
 venue_configs = [
@@ -73,6 +70,7 @@ run_config = BacktestRunConfig(
 
 node = BacktestNode(configs=[run_config])
 
-results = node.run()
-results
+node.run()
+
+
 
