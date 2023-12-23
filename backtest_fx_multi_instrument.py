@@ -14,8 +14,8 @@ from nautilus_trader.backtest.node import (
                                           )
 from nautilus_trader.config import LoggingConfig
 from nautilus_trader.config.common import ImportableStrategyConfig
-from strategies.BuyAndHold import BuyAndHoldConfig
-from strategies.BuyAndHold import BuyAndHold
+from strategies.TQTrend import TQTrendConfig
+from strategies.TQTrend import TQTrend
 
 CATALOG_PATH = os.getcwd() + "/catalog"
 catalog = ParquetDataCatalog(CATALOG_PATH)
@@ -43,8 +43,8 @@ data_configs = [
 
 strategies = [
     ImportableStrategyConfig(
-      strategy_path=BuyAndHold,
-      config_path=BuyAndHoldConfig,
+      strategy_path=TQTrend,
+      config_path=TQTrendConfig,
       config=dict(
         instrument_id=instrument.id.value,
         bar_type=f"{instrument.id.value}-1-DAY-LAST-EXTERNAL",
