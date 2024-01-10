@@ -1,6 +1,4 @@
-**Objective:**
-
-To the increase the odds of passing a prop firm challenge by running backtests that mimic it.  
+Downloads financial data through an MT5 terminal, then populates a parquet catalog using Nautilus Trader.
 
 
 
